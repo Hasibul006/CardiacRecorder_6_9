@@ -43,8 +43,7 @@ public class addRecords extends AppCompatActivity {
         etHeartRate = findViewById(R.id.etHeartRate);
         btnSave = findViewById(R.id.btnSave);
 
-        etDate.setEnabled(false);
-        etTime.setEnabled(false);
+
 
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
