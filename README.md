@@ -16,7 +16,7 @@ As people becoming more and more health conscious, keeping track of one's heart 
 
 Below are some screenshots of the app:
 ## Login Page
-![WhatsApp Image 2023-07-06 at 1 04 38 AM](https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/d3391587-a9d6-4b40-8cb6-d798a15920db) {:width= "400px"}
+![WhatsApp Image 2023-07-06 at 1 04 38 AM](https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/d3391587-a9d6-4b40-8cb6-d798a15920db) {:width= "50px"}
 
 
 ## Register Page
