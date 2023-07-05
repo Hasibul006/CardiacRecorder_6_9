@@ -6,8 +6,8 @@ As people becoming more and more health conscious, keeping track of one's heart 
 'CardiacRecorder' has a very intuitive UI, lots of features and a convinient experience to offer to its users. It has the ultimate capabilities to become a person's ultimate heart assistant!
 
 The android app lets you:
-Keep the track of your Systolic and Diastolic blood pressure.
-You can mark your heart rate every day
+1. Keep the track of your Systolic and Diastolic blood pressure.
+2. You can mark your heart rate every day
 There will be an alert symbol that identify your contidion
 You can add comments according to your health condition
 Everything will be shown in a combined frame
