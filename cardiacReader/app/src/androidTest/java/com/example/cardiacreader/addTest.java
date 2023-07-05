@@ -1,5 +1,6 @@
 package com.example.cardiacreader;
 
+
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
@@ -18,27 +19,27 @@ import org.junit.runners.JUnit4;
 
 @RunWith(JUnit4.class)
 
-public class UItest {
+public class addTest {
 
     @Rule
-    public ActivityScenarioRule<Signin> activityRule = new ActivityScenarioRule<>(Signin.class);
-    public ActivityScenarioRule<addRecords> activityRule2 = new ActivityScenarioRule<>(addRecords.class);
+    public ActivityScenarioRule<addRecords> activityRule = new ActivityScenarioRule<>(addRecords.class);
+    public ActivityScenarioRule<MainActivity> activityRule2 = new ActivityScenarioRule<>(MainActivity.class);
+
 
     @Test
-    public void loginTest()
+    public void addTest()
     {
+        onView(withId(R.id.addinglayout)).check(matches(isDisplayed()));
+        onView(withId(R.id.etSystolic)).perform(ViewActions.typeText("78"));
+        onView(withId(R.id.etDiastolic)).perform(ViewActions.typeText("115"));
+        onView(withId(R.id.etHeartRate)).perform(ViewActions.typeText("80"));
+        onView(withId(R.id.etComment)).perform(ViewActions.typeText("Good"));
 
-        onView(withId(R.id.signinlayout)).check(matches(isDisplayed()));
-        onView(withId(R.id.user)).perform(ViewActions.typeText("hemal9730@gmail.com"));
-        onView(withId(R.id.pass)).perform(ViewActions.typeText("1234567"));
-        onView(withId(R.id.login)).perform(click());
+        onView(withId(R.id.btnSave)).perform(click());
         try {
-            Thread.sleep(2000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        onView(withId(R.id.recyclerView)).check(matches(isDisplayed()));
     }
-
 }
