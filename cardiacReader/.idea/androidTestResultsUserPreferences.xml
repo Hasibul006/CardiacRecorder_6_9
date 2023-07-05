@@ -17,13 +17,15 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
-        <entry key="278677187">
+        <entry key="-401585202">
           <value>
             <AndroidTestResultsTableState>
               <option name="preferredColumnWidths">
                 <map>
                   <entry key="Duration" value="90" />
                   <entry key="Tests" value="360" />
+                  <entry key="Xiaomi&#10; 23021RAAEG" value="120" />
+                  <entry key="af55b8e8" value="120" />
                   <entry key="eef1a93e" value="120" />
                   <entry key="realme&#10; RMX1921" value="120" />
                 </map>
