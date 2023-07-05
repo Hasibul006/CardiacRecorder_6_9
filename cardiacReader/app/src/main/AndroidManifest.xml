@@ -12,6 +12,9 @@
         android:theme="@style/Theme.CardiacReader"
         tools:targetApi="31">
         <activity
+            android:name=".editRecords"
+            android:exported="false" />
+        <activity
             android:name=".addRecords"
             android:exported="false" />
         <activity
