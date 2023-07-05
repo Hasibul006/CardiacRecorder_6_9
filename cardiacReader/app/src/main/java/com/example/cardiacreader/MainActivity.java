@@ -104,6 +104,36 @@ public class MainActivity extends AppCompatActivity {
         Button add = findViewById(R.id.add),
                 logout= findViewById(R.id.log);
 
+
+
+
+        adapter.setOnItemClickListener(new MyAdapter.OnItemClickListener() {
+            @Override
+            public void onItemDeleteClick(int position) {
+                measurementsRef.document(recordsList.get(position).getId())
+                        .delete().addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void unused) {
+                                Toast.makeText(MainActivity.this, "Item Deleted", Toast.LENGTH_SHORT).show();
+                                recordsList.remove(position);
+                                adapter.notifyDataSetChanged();
+                            }
+                        });
+            }
+
+            @Override
+            public void onItemEditClick(int position) {
+                String id = recordsList.get(position).getId();
+                Intent intent = new Intent(MainActivity.this, editRecords.class);
+                intent.putExtra("Id",id);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

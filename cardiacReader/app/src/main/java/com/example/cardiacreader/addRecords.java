@@ -39,14 +39,11 @@ public class addRecords extends AppCompatActivity {
 
         etDiastolic = findViewById(R.id.etDiastolic);
         etSystolic = findViewById(R.id.etSystolic);
-        etTime = findViewById(R.id.etTime);
-        etDate = findViewById(R.id.etDate);
         etComment = findViewById(R.id.etComment);
         etHeartRate = findViewById(R.id.etHeartRate);
         btnSave = findViewById(R.id.btnSave);
 
-        etDate.setEnabled(false);
-        etTime.setEnabled(false);
+
 
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
@@ -54,8 +51,7 @@ public class addRecords extends AppCompatActivity {
         String date = dateFormat.format(calendar.getTime());
         String time = timeFormat.format(calendar.getTime());
 
-        etDate.setText(date);
-        etTime.setText(time);
+
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
