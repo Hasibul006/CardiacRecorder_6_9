@@ -12,9 +12,6 @@
         android:theme="@style/Theme.CardiacReader"
         tools:targetApi="31">
         <activity
-            android:name=".addRecords"
-            android:exported="false" />
-        <activity
             android:name=".Signup"
             android:exported="true">
             <intent-filter>
