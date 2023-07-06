@@ -16,19 +16,26 @@ As people becoming more and more health conscious, keeping track of one's heart 
 
 Below are some screenshots of the app:
 ## Login Page
-![WhatsApp Image 2023-07-06 at 1 04 38 AM](https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/d3391587-a9d6-4b40-8cb6-d798a15920db) {:width= "50px"}
+
+
+<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/d3391587-a9d6-4b40-8cb6-d798a15920db" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400px">
+
 
 
 ## Register Page
 
-![WhatsApp Image 2023-07-06 at 1 04 37 AM](https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/e1e0a013-cde4-451a-8eb9-0c71608b77a0)
+<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/e1e0a013-cde4-451a-8eb9-0c71608b77a0" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400PX">
+
 
 ## Home Page
-![WhatsApp Image 2023-07-06 at 1 04 39 AM (2)](https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/0b90cab3-b5be-4e0f-9976-77debe835e0d)
+
+
+<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/0b90cab3-b5be-4e0f-9976-77debe835e0d" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400PX">
 
 ## Add Page
 
-![WhatsApp Image 2023-07-06 at 1 04 39 AM](https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/26f0bc29-11c8-4efd-8b5f-cf1d310b7a26)
+<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/0b90cab3-b5be-4e0f-9976-77debe835e0d" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400PX">
+
 
 
 
