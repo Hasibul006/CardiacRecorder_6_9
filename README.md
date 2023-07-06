@@ -18,7 +18,7 @@ Below are some screenshots of the app:
 ## Login Page
 
 
-<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/d3391587-a9d6-4b40-8cb6-d798a15920db" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400px">
+<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/94055142/93459288-5444-4302-96b7-3a9b69914462" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400px">
 
 
 
