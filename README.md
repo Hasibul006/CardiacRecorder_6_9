@@ -34,8 +34,9 @@ Below are some screenshots of the app:
 
 ## Add Page
 
-<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/0b90cab3-b5be-4e0f-9976-77debe835e0d" alt="WhatsApp Image 2023-07-06 at 1 04 38 AM" width="400PX">
 
+
+<img src="https://github.com/Hasibul006/CardiacRecorder_6_9/assets/85826615/f7419193-6ef1-45b0-9a3d-991dc9eb9531" width="400PX">
 
 
 
